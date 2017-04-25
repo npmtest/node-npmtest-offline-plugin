@@ -1,6 +1,6 @@
 # npmtest-offline-plugin
 
-#### test coverage for  [offline-plugin (v4.7.0)](https://github.com/NekR/offline-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-offline-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-offline-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-offline-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-offline-plugin)
+#### basic test coverage for  [offline-plugin (v4.7.0)](https://github.com/NekR/offline-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-offline-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-offline-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-offline-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-offline-plugin)
 
 #### offline-plugin for webpack
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-offline-plugin/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-offline-plugin/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-offline-plugin/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-offline-plugin/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-offline-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-offline-plugin/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-offline-plugin/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-offline-plugin/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-offline-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-offline-plugin/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-offline-plugin/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-offline-plugin/build/coverage.html/index.html)
 
@@ -119,7 +119,8 @@
         "test": "node tests/legacy/run && eslint -c configs/eslint.tests.json 'tests/**/**.js'",
         "watch": "npm run build -- --watch"
     },
-    "version": "4.7.0"
+    "version": "4.7.0",
+    "bin": {}
 }
 ```
 
